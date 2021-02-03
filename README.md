@@ -1,2 +1,11 @@
 # dir-text
-text directories and files in a directory
+read directory output text like this
+
+egg-example
+├── app
+│   ├── controller
+│   │   └── home.js
+│   └── router.js
+├── config
+│   └── config.default.js
+└── package.json

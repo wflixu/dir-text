@@ -1,0 +1,20 @@
+{
+  "name": "dir-text",
+  "version": "0.0.1",
+  "description": "text directories and files in a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wflixu/dir-text.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wflixu/dir-text/issues"
+  },
+  "homepage": "https://github.com/wflixu/dir-text#readme"
+}
