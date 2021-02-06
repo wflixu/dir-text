@@ -1,6 +1,6 @@
 # dir-text
 read directory output text like this
-
+<pre>
 egg-example
 ├── app
 │   ├── controller
@@ -9,10 +9,18 @@ egg-example
 ├── config
 │   └── config.default.js
 └── package.json
+</pre>
 
 # use
 
 ```
   const dirText = require('dir-text');
-  dirText();
+  dirText(targetPath,ignoreDirs);
 ```
+
+# TypeScript 
+
+# checkList
+
+- [x] readme
+- [ ] other
