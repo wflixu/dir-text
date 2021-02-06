@@ -9,3 +9,10 @@ egg-example
 ├── config
 │   └── config.default.js
 └── package.json
+
+# use
+
+```
+  const dirText = require('dir-text');
+  dirText();
+```
