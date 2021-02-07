@@ -1,20 +1,26 @@
 {
   "name": "dir-text",
-  "version": "0.0.2",
-  "description": "text directories and files in a directory",
-  "main": "index.js",
+  "version": "0.0.3",
+  "description": "Express the file directory structure in text ",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "node test.js"
+    "test": "node __tests__/test.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wflixu/dir-text.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["directory","catalogue","directory text tree", "directory tree", "file directory" ],
+  "author": "wflixu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wflixu/dir-text/issues"
   },
-  "homepage": "https://github.com/wflixu/dir-text#readme"
+  "homepage": "https://github.com/wflixu/dir-text#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.3"
+  }
 }
